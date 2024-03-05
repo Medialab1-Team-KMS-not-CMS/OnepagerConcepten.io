@@ -1,0 +1,173 @@
+/* Algemene tags */
+
+body {
+  background: #6900FF;
+}
+
+.prototype_header {
+  font-family: "Arial Narrow";
+  color: #FFFFFF;
+  display: flex;
+}
+
+#team {
+  font-family: "Arial Narrow";
+  font-size: 75px;
+  margin-bottom: 100px;
+  color: #FFFFFF;
+}
+
+#about {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+p {
+  font-family: "Arial Narrow";
+  font-size: 20px;
+  color: #FFFFFF;
+}
+
+#container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#top_header {
+  margin-top: 75px;
+  margin-bottom: 75px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 350px;
+  background: #6900FF;
+}
+
+/* Tags design related */
+
+.design_header {
+  font-family: "Arial Narrow";
+  color: #6900FF;
+  display: flex;
+}
+
+.design_img {
+  max-width: 500px;
+  max-height: 300px;
+}
+
+.design_description{
+  width: 85em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#design_sprint {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+}
+
+/* Tags project related */
+
+.project_img {
+  max-width: 500px;
+  max-height: 300px;
+}
+
+.project_description {
+  width: 85em;
+}
+
+#project_container_one{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: #FFFFFF;
+  margin-bottom: 2em;
+  height: 600px;
+  width: 100%;
+}
+
+#project_container_two {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: #6900FF;
+  margin-bottom: 2em;
+  height: 600px;
+  width: 100%;
+}
+
+#project_container_three {
+  background: #FFFFFF;
+  border-style: solid;
+  border-color: #555555;
+  height: 600px;
+  width: 100%;
+}
+
+#project_one {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+}
+
+/* Tags profile related */
+
+.profile {
+  justify-items: center;
+  border-style: solid;
+  height: 100px;
+  width: 100px;
+  border-radius: 100%;
+}
+
+.profile_picture {
+  height: 150px;
+  width: 150px;
+  border-radius: 100px;
+}
+
+.profile_container {
+  height: 250px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#profiles {
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+  margin-bottom: 50px;
+}
+
+#profile_description{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: 100px;
+}
+
+#profile_content {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  border-radius: 20px;
+  margin-bottom: 50px;
+  margin-top: 50px;
+  height: 350px;
+}
